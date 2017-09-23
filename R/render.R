@@ -176,7 +176,7 @@ render <- function(input,
       '---\n',
       'title: "', input, '"\n',
       'author: "', Sys.info()[["user"]], '"\n',
-      'date: "', date(), '"\n',
+      'date: "', base::date(), '"\n',
       '---\n'
     , sep = "")
     if (!identical(encoding, "native.enc"))
